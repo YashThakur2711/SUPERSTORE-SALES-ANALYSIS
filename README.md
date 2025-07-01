@@ -62,7 +62,7 @@ Business Analysis: Use SQL to answer specific business questions and derive insi
 
 - order_priority: Order priority of the orders
 
-
+**Buisness Problem Statements**
 
 **1.Overview of Superstore Sales Dataset:**
 
@@ -107,7 +107,7 @@ Average discount.
 
 **Tools Used**
 
-- SQL for analyzing business problem statement
+- MYSQL for analyzing business problem statement
 
 - Power BI for visualization of business problem statement
 
