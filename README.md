@@ -66,37 +66,53 @@ Business Analysis: Use SQL to answer specific business questions and derive insi
 
 **1.Overview of Superstore Sales Dataset:**
 
- Total number uf customers
-
-Total number of orders 
-
-Total Sub_category
-
-Total Product
-
-Total sales
-
-Total profit
-
-Total Cites
-
-Average discount
+Total number uf customers,
+Total number of orders, 
+Total Sub_category,
+Total Product,
+Total sales,
+Total profit,
+Total Cites,
+Average discount.
 
 **2.Sales Performance Analysis by Customer:**
 
-Identify Numbers of Customers by categories
+- Identify Numbers of Customers by categories
 
-First and Last order of customer
+- First and Last order of customer
 
-Year wise sales
+- Customer Segmentation 
+
+- Year wise sales
 
 **3.Sales Analysis by Product and Sub_Category**
 
-Top 50 Products by Sales and Quantity
+- Top 50 Products by Sales and Quantity
 
-Identify Sub_category with sales more than 1000000
+- Identify Sub_category with sales more than  Sale 1000000
 
-Total Quantity of each product
+- Total Quantity of each product
+
+**4.Profitability and Area Analysis:**
+
+- Analyze profit margins for different product categories and sub-categories
+
+- Evaluate the impact of discounts on overall profitability
+
+- Cumulative Profit over Category
+
+- Region wise Quantity Analysis
+
+- Country wise sales Analysis
+
+**Tools Used**
+
+- SQL for analyzing business problem statement
+
+- Power BI for visualization of business problem statement
+
+
+
 
 
 
