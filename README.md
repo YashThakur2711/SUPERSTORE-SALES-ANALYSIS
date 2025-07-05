@@ -1,115 +1,111 @@
-# SUPERSTORE-SALES-ANALYSIS SQL -POWER BI
+**🛍️ Project Title – Superstore Sales Analysis (SQL + Power BI)**
 
-**Project Overview**
+**📌 Overview**
 
-Project Title: Super Store Sales Analysis
+This project demonstrates SQL and Power BI skills applied to a retail business scenario. The Superstore Sales Analysis project involves setting up a database using sales data, performing exploratory data analysis (EDA), and solving real-world business problems using SQL. The results are visualized through an interactive Power BI dashboard to uncover insights on customer behavior, product performance, regional profitability, and sales trends.
+
+**🔍 Problem Statement**
+
+Store businesses often struggle with tracking profitability, customer segmentation, and product performance across regions. This project addresses the need for data-driven decision-making by analyzing sales, profit margins, customer orders, and geographical insights to assist business strategy.
+
+**📊 Tools & Technologies Used**
+
+MySQL – Data cleaning, transformation, and business analysis
+
+Power BI – Interactive data visualizations and dashboard
+
+**📁 Dataset**
 
 Database: Super_Store_db
+Source: Publicly available Superstore sales dataset (e.g. Kaggle)
+Key Columns:
 
-This project is designed to demonstrate SQL skills and techniques typically used by data analysts to explore, clean, and analyze super store sales data. The project involves setting up a super store sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. and after that visulize the data thorugh power bi.
+order_id, order_date, ship_date, ship_mode
 
+customer_id, customer_name, segment, state, city, country, market, region
 
-**Objectives**
+product_id, product_name, category, sub_category
 
-Set up a super store sales database: Create a super store sales database with the provided sales data.
-Data Cleaning: Identify and remove any records with missing or null values.
-Exploratory Data Analysis (EDA): Perform basic exploratory data analysis to understand the dataset.
-Business Analysis: Use SQL to answer specific business questions and derive insights from the sales data.
+sales, quantity, discount, profit, shipping_cost, order_priority
 
-**Dataset Columns:**
+**🧠 Approach**
 
-- order_id: IDs of all orders
+Database Setup: Created and loaded Superstore sales data into MySQL
 
-- order_date: Dates for all orders
+Data Cleaning: Removed records with missing/null values
 
-- ship_date: Shipping date of all orders
+Exploratory Data Analysis: Basic summaries and distribution checks
 
-- ship_mode: Shipping mode of all orders
+Business Querying: Wrote SQL queries to solve defined business problems
 
-- customer_id: customer ID all orders
+Dashboarding: Created a Power BI report to visualize KPIs, charts, and regional sales trends
 
-- customer_name: Customer names of all order ID
+**💼 Business Problem Statements & SQL Insights**
 
-- segment: Segment of all orders
+**1️⃣ Overview Metrics**
 
-- state: State of the order ID
+Total Customers, Orders, Sub-categories, Products
 
-- country: Country of the order ID
+Total Sales, Total Profit, Total Cities
 
-- city: city of the order ID
+Average Discount
 
-- market: Market of the order ID
+**2️⃣ Sales Performance Analysis by Customer**
 
-- region: Region of the order ID
+Customer count by category
 
-- product_id: Product ID of all orders
+First and last order per customer
 
-- category: Category of the orders
+Year-wise sales trends
 
-- sub_category: Sub-category of the orders
+Customer segmentation based on sales
 
-- product_name: Product name of the orders
+**3️⃣ Sales Analysis by Product & Sub-Category**
 
-- sales: Sales of the orders
+Top 50 products by sales and quantity
 
-- quantity: Quantity of the orders
+Sub-categories with sales > 1,000,000
 
-- discount: Discount of the orders
+Quantity sold per product
 
-- profit: Profit of the orders
+**4️⃣ Profitability & Area Analysis**
 
-- shipping_cost: Shipping cost of the orders
+Profit margin by category and sub-category
 
-- order_priority: Order priority of the orders
+Impact of discount on profit
 
-**Buisness Problem Statements**
+Cumulative profit using window functions
 
-**1.Overview of Superstore Sales Dataset:**
+Quantity analysis by region
 
-Total number uf customers,
-Total number of orders, 
-Total Sub_category,
-Total Product,
-Total sales,
-Total profit,
-Total Cites,
-Average discount.
+Sales analysis by country
 
-**2.Sales Performance Analysis by Customer:**
+**📈 Key Features in Power BI**
 
-- Identify Numbers of Customers by categories
+KPIs: Total Sales, Total Profit, Avg Discount
 
-- First and Last order of customer
+Drill-down charts by Category, Region, Segment
 
-- Customer Segmentation 
+sales by country and region
 
-- Year wise sales
+Bar chart of Top 20 products by sales
 
-**3.Sales Analysis by Product and Sub_Category**
+Line charts for year-wise trends
 
-- Top 50 Products by Sales and Quantity
+Doughnut for profit and sales across categories
 
-- Identify Sub_category with sales more than  Sale 1000000
+**✅ Results**
 
-- Total Quantity of each product
+Identified sub-categories has highest sales  with phones
 
-**4.Profitability and Area Analysis:**
+Found standard shipping has minimum average cost with maximum profit amount
 
-- Analyze profit margins for different product categories and sub-categories
+West european region had high quantity sale but low margins
 
-- Evaluate the impact of discounts on overall profitability
+United states has highest sales by technology category
 
-- Cumulative Profit over Category
+Clear seasonal trends in sales across years
 
-- Region wise Quantity Analysis
-
-- Country wise sales Analysis
-
-**Tools Used**
-
-- MYSQL for analyzing business problem statement
-
-- Power BI for visualization of business problem statement
 
 
 
